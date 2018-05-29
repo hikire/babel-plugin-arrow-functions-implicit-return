@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transform arrow functions empty block returns undefined 1`] = `
+"
+const fn = x => void 0;"
+`;
+
+exports[`transform arrow functions expressions transforms correctly 1`] = `
+"
+const fn = x => x + 1;"
+`;
+
+exports[`transform arrow functions returns last directive if body is empty 1`] = `
+"
+const fn = x => {
+    return \\"bar\\";
+};"
+`;
+
+exports[`transform arrow functions works like do expressions 1`] = `
+"
+const fn = x => x > 0 ? \\"x>0\\" : \\"x<=0\\";"
+`;
