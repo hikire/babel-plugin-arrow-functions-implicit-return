@@ -1,6 +1,6 @@
 {
     "name": "babel-plugin-arrow-functions-implicit-return",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Arrow functions blocks behave like do expressions",
     "main": "./lib/index.js",
     "scripts": {
@@ -10,18 +10,18 @@
     },
     "repository": {
         "type": "git",
-        "url":
-            "git+https://github.com/ZuraJanaiNazayDa/babel-plugin-arrow-functions-implicit-return.git"
+        "url": "git+https://github.com/ZuraJanaiNazayDa/babel-plugin-arrow-functions-implicit-return.git"
     },
-    "keywords": ["babel-plugin", "implicit-return"],
+    "keywords": [
+        "babel-plugin",
+        "implicit-return"
+    ],
     "author": "Yazan Alkheder",
     "license": "MIT",
     "bugs": {
-        "url":
-            "https://github.com/ZuraJanaiNazayDa/babel-plugin-arrow-functions-implicit-return/issues"
+        "url": "https://github.com/ZuraJanaiNazayDa/babel-plugin-arrow-functions-implicit-return/issues"
     },
-    "homepage":
-        "https://github.com/ZuraJanaiNazayDa/babel-plugin-arrow-functions-implicit-return#readme",
+    "homepage": "https://github.com/ZuraJanaiNazayDa/babel-plugin-arrow-functions-implicit-return#readme",
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.3",
