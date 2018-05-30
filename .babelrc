@@ -1,4 +1,3 @@
 {
-    "presets": ["env"],
-    "plugins": ["babel-plugin-arrow-functions-implicit-return"]
+    "presets": ["env"]
 }
