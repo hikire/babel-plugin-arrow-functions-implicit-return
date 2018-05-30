@@ -17,16 +17,14 @@ const nextShow = prevShow => {
 ```js
 const getUserNav = () => {
     <UserConsumer>
-        {
-            (user) => {
-                if(user){
-                    <span>Hello {user.name}!<span>;
-                } else {
-                    <a onClick={showLogin}>Login</a>;
-                }
+        {user => {
+            if (user) {
+                <span>Hello {user.name}!</span>;
+            } else {
+                <a onClick={showLogin}>Login</a>;
             }
-        }
-    </UserConsumer>
+        }}
+    </UserConsumer>;
 };
 ```
 
