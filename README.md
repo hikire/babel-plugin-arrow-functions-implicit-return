@@ -7,7 +7,7 @@ This plugin allows you to use arrow functions like [do expressions](https://gith
 ```js
 const shows = ["Death Note", "Steins;Gate", "Maho shojo XD"];
 const nextShow = prevShow => {
-    const prevIndex = shows.findIndex(show => show === prevShow);
+    const prevIndex = shows.findIndex(show => show === prevShow) || 0;
     shows[(prevIndex + 1) % shows.length];
 };
 ```
@@ -44,7 +44,7 @@ npm install --save-dev babel-plugin-arrow-functions-implicit-return
 
 ```js
 {
-    "plugins": ["babel-plugin-arrow-functions-implicit-return"]
+    "plugins": ["arrow-functions-implicit-return"]
 }
 ```
 
